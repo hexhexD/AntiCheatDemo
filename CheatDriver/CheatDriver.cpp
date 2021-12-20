@@ -118,7 +118,7 @@ NTSTATUS CheatRead(PDEVICE_OBJECT DeviceObject, PIRP Irp) {
   if (!buffer)
     return CompleteIrp(Irp, STATUS_INSUFFICIENT_RESOURCES);
 
-  memcpy(buffer, &totalCallNum, sizeof(totalCallNum));
+  RtlCopyMemory(buffer, &totalCallNum, sizeof(totalCallNum));
 
   return CompleteIrp(Irp, STATUS_SUCCESS, sizeof(totalCallNum));
 }
