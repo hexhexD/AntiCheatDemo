@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheatClient", "CheatClient\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AntiCheatDriver", "AntiCheatDriver\AntiCheatDriver.vcxproj", "{BF065E4E-B626-4BF5-87FE-C8A59C5A728E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AntiCheatClient", "AntiCheatClient\AntiCheatClient.vcxproj", "{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -81,6 +83,18 @@ Global
 		{BF065E4E-B626-4BF5-87FE-C8A59C5A728E}.Release|x86.ActiveCfg = Release|Win32
 		{BF065E4E-B626-4BF5-87FE-C8A59C5A728E}.Release|x86.Build.0 = Release|Win32
 		{BF065E4E-B626-4BF5-87FE-C8A59C5A728E}.Release|x86.Deploy.0 = Release|Win32
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Debug|ARM.ActiveCfg = Debug|Win32
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Debug|x64.ActiveCfg = Debug|x64
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Debug|x64.Build.0 = Debug|x64
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Debug|x86.Build.0 = Debug|Win32
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Release|ARM.ActiveCfg = Release|Win32
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Release|ARM64.ActiveCfg = Release|Win32
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Release|x64.ActiveCfg = Release|x64
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Release|x64.Build.0 = Release|x64
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Release|x86.ActiveCfg = Release|Win32
+		{A3CFD095-1AF9-4F08-8F91-3A0859DAF93D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

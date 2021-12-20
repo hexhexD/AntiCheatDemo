@@ -1,13 +1,5 @@
-#include <iostream>
-// ZeroBoi.cpp : This file contains the 'main' function. Program execution
-// begins and ends there.
-//
-
 #include <Windows.h>
-#include <concepts>
-#include <memory>
 #include <stdio.h>
-#include <type_traits>
 #include <winnt.h>
 
 int reportError(const char *message);
